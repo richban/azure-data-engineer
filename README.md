@@ -1,6 +1,6 @@
 # How to Become a Microsoft Certified Azure Data Engineer Associate
 
-If you want to become a Microsoft Azure Data engineer, then you will have to pass two exams:
+If you want to become a Microsoft Azure Certified Data Engineer, then you will have to pass two exams:
 
 - [Exam DP-200: Implementing an Azure Data Solution](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-200)
 - [Exam DP-201: Designing an Azure Data Solution](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-201)
@@ -410,6 +410,8 @@ Here is a list of questions that you can encounter during the DP-200 exam:
   [Incrementally copy a table using Azure portal - Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/tutorial-incremental-copy-portal)
 
 </details>
+
+More exam questions can be found in the `exam.questions.dp-200.zip` file.
 
 # Wall of Fame
 
