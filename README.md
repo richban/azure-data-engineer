@@ -171,7 +171,7 @@ As you can see, from the scope of the exam, it's really broad and the stack keep
 - Mac users, use a mouse! The OnVue app is not friendly with the trackpad.
 
 <details>
-  <summary>Example Question</summary>
+  <summary>Example Question from MeasureUp Demo</summary>
   
   ![Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-29_at_9.05.39_PM.png](Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-29_at_9.05.39_PM.png)
 </details>
@@ -411,7 +411,7 @@ Here is a list of questions that you can encounter during the DP-200 exam:
 
 </details>
 
-More exam questions can be found in the `exam.questions.dp-200.zip` file.
+More exam questions can be found at [MeasureUp](https://www.measureup.com).
 
 # Wall of Fame
 
