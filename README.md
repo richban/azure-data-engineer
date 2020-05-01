@@ -235,8 +235,6 @@ Here is a list of questions that you can encounter during the DP-200 exam:
 
   ![Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-10_at_4.39.53_PM.png](Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-10_at_4.39.53_PM.png)
 
-  ![Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-10_at_4.42.07_PM.png](Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-10_at_4.42.07_PM.png)
-
   - Hash distribution shards data across nodes by placing all data that use the same has key on the same compute node.
   - Relicated distribution is good for reads when the table is small.
   - Outer join would return more rows than necessary.
@@ -266,10 +264,6 @@ Here is a list of questions that you can encounter during the DP-200 exam:
 
 - **Azure Synapse Analytics SQL pool - archive oldest partition (before 2018) - archive table does not exists - add a new paritition to the Sales table**
 
-  ![Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-10_at_5.06.52_PM.png](Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-10_at_5.06.52_PM.png)
-
-  ![Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-10_at_5.09.38_PM.png](Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-10_at_5.09.38_PM.png)
-
   - Switch - data in the first paritition os the Sales table is switched to the first parition of the Sales History table.
   - MERGE RANGE removes a boundary value, thus removes a partition.
   - SPLIT RANGE create a new boundary, thus a new parition.
@@ -279,14 +273,12 @@ Here is a list of questions that you can encounter during the DP-200 exam:
   - Operator Greater than
   - Agg: Max
 - **List all hash distributed tables. Include the table name and the column dame of the distribution columns.**
+
   - `sys.tables`
   - `sys.columns`
   - `sys.pdw_column_distribution_properties`
   - `sys.pdw_distributions` - info about the dist on the applliance
   - `sys.pdw_table_distribution_props` - dist info for tables
-- **Auto-failover group for DB recovery**
-
-  ![Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-10_at_5.18.43_PM.png](Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-10_at_5.18.43_PM.png)
 
 - **Copy data from on-premise SQL Server to Data Lake Storage over public internet - enduser performance.**
 
@@ -355,12 +347,10 @@ Here is a list of questions that you can encounter during the DP-200 exam:
   [Connect an on-premises network to Azure using ExpressRoute - Azure Reference Architectures](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/expressroute-vpn-failover)
 
 - **Data Ingestions from csv in Azure Data Lake Storage account to Azure DW**
+
   - create external file format and external data source
   - create external table that uses the external data source
   - Load the data
-- **Azure Blob Storage ⇒ Azure DW Complete the T-SQL**
-
-  ![Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-29_at_3.38.05_PM.png](Azure%20for%20the%20Data%20Engineer/Screen_Shot_2020-04-29_at_3.38.05_PM.png)
 
 - **You Azure Synapse Analytics DB. You need to list of all hash distributed tables. Which 3 catalog views do you need to join in a query?**
   - `sys.tables`
