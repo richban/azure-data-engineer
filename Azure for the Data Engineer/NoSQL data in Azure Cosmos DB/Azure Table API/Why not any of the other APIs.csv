@@ -1,0 +1,5 @@
+﻿API,Description
+Cassandra,"This API isn't a good choice because of the existing Azure Table Storage database, and because of the requirements to import and reuse application code."
+Core (SQL),"This API would be the best choice if you were designing a new system; however, since this scenario consists of a legacy application with a large existing Azure Table Storage dataset, the Azure Table API is the correct choice."
+Gremlin,"This API isn't a good choice because this scenario doesn't need to process graph-based data, and because of the requirements to import and reuse application code."
+MongoDB,"This API isn't a good choice because of the existing Azure Table Storage database, and because of the requirements to import and reuse application code."

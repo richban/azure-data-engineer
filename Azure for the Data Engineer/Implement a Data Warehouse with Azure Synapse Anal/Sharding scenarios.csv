@@ -1,0 +1,4 @@
+﻿Type,Great fit for...,Watch out if...
+Replicated,✅ Small-dimension tables in a star schema with less than 2GB of storage after compression (~5x compression).,"⛔ Many write transactions are on the table (insert/update/delete).⛔ You change DWU provisioning frequently.⛔ You use only 2-3 columns, but your table has many columns.⛔ You index a replicated table."
+Round-robin (default),✅ Temporary/Staging table✅ No obvious joining key or good candidate column.,⛔ Performance is slow due to data movement.
+Hash,✅ Fact tables.✅ Large-dimension tables.,⛔ The distribution key can't be updated.

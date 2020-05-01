@@ -1,0 +1,10 @@
+﻿Operation,Indexing strategy,Approximate consumption (RUs)
+Read document directly,N/A,1
+Query document,All properties indexed,3
+Query document by indexed property,Partial,3+
+Query document by non-indexed property,Partial,10+
+Query document,No properties indexed,20+
+Insert document,All properties indexed,13
+Insert document,All properties indexed lazily,7
+Insert document,Some properties indexed,6
+Insert document,No properties indexed,5
